@@ -8,8 +8,13 @@ description: |
   CPU Raytracer 
 
 dependencies:
+  stumpy_core:
+    github: l3kn/stumpy_core
+    branch: blending-modes
   stumpy_png:
     github: l3kn/stumpy_png
-    version: "-> 2.0.0"
+    branch: master
+  linalg:
+    github: l3kn/linalg
 
 license: MIT
